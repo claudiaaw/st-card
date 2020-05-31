@@ -1,0 +1,25 @@
+html {
+  min-height:100%;
+}
+
+/* body {
+  min-height:100%;
+  margin: 0;
+  background-size: auto;
+  background-color: #ffffff;
+  background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(230, 140, 125, 0.5) 20%, rgba(0, 203, 230, 0.5));
+  background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(230, 140, 125, 0.5) 20%, rgba(0, 203, 230, 0.5));
+  background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(230, 140, 125, 0.5) 20%, rgba(0, 203, 230, 0.5));
+  background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(230, 140, 125, 0.5) 20%, rgba(0, 203, 230, 0.5));
+} */
+
+body {
+  min-height:100%;
+  margin: 0;
+  background-size: cover;
+  background-color: #ffffff;
+  background-image: url("images/overlay.png"),-moz-linear-gradient(60deg,rgba(255,165,150,0.5) 5%,rgba(0,228,255,0.35)),url("images/backgrounds/bg5.jpg");
+  background-image: url("images/overlay.png"),-webkit-linear-gradient(60deg,rgba(255,165,150,0.5) 5%,rgba(0,228,255,0.35)),url("images/backgrounds/bg5.jpg");
+  background-image: url("images/overlay.png"),-ms-linear-gradient(60deg,rgba(255,165,150,0.5) 5%,rgba(0,228,255,0.35)),url("images/backgrounds/bg5.jpg");
+  background-image: url("images/overlay.png"),linear-gradient(60deg,rgba(255,165,150,0.5) 5%,rgba(0,228,255,0.35)),url("images/backgrounds/bg5.jpg");
+}

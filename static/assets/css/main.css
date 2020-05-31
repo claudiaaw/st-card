@@ -120,7 +120,12 @@ h6 {
 
 @media screen and (max-width: 480px) {
   h1 {
-    font-size: 1.65em; } }
+    font-size: 1.65em; }
+  
+  html,body {
+      min-width:320px
+  }
+}
 sub {
   font-size: 0.8em;
   position: relative;
@@ -484,7 +489,7 @@ button,
 /* Main */
 #main {
   position: relative;
-  max-width: 60%;
+  max-width: 100%;
   min-width: 27em;
   padding: 4.5em 3em 3em 3em ;
   background: #ffffff;
